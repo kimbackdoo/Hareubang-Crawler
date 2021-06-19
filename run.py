@@ -40,8 +40,8 @@ class MyTabWidget(QWidget):
             if i % 2 == 0:
                 self.shops[data[i]] = data[i+1]
 
-        self.user_id = 'tekarr'  # 아이디
-        self.user_pw = 'kbg@050200'  # 비밀번호
+        self.user_id = '아이디'  # 아이디
+        self.user_pw = '비밀번호'  # 비밀번호
 
         # Initialize tab screen
         self.tabs = QTabWidget()
